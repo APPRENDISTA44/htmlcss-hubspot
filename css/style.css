@@ -1,0 +1,72 @@
+/*Reset*/
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+/*clearfix*/
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/*font*/
+body{
+  font-family: "Montserrat", sans-serif;
+}
+/*container 80%*/
+.container{
+  padding: 0 10%;
+}
+/*header*/
+header .top-menu{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f4f9fd;
+}
+header .col{
+  float: left;
+}
+header .col-left{
+  width: 50%;
+}
+header .col-right{
+  width: 50%;
+  text-align: right;
+}
+header .col-left .language{
+padding-right: 20px;
+border-right: 1px solid grey;
+}
+header .col-left .contact{
+  padding-left: 20px;
+}
+header .col-left .contact a{
+  color: black;
+}
+header .col-right  a{
+  margin-right: 10px;
+}
+header .col-right  a:last-child{
+  margin-right: 0px;
+}
+header .col-right  a i{
+  color: black
+}
+header .col-right .log{
+  color: #fe775a;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+}
+.cta{
+  color: white;
+  padding: 5px;
+  background-color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+}
