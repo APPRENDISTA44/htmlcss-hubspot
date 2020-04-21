@@ -68,7 +68,9 @@ header .col-right .log{
   border: 1px solid #fe775a;
   border-radius: 5px;
 }
+/*bottone default*/
 .cta{
+  display: inline-block;
   color: white;
   padding: 5px;
   background-color: #fe775a;
@@ -96,7 +98,7 @@ header .bottom-menu i{
 header .bottom-menu .col-right{
   line-height: 34px;
 }
-/*title*/
+/*titolo*/
 header .title{
   height: 600px;
   background-color: #fff4ef;
@@ -110,19 +112,16 @@ header .title .sub-container{
 }
 header .title .sub-container h1{
   font-size: 2.555rem;
-  font-weight: 700;
 }
 header .title .sub-container p{
   margin: 20px 0;
 }
 header .title .sub-container .cta{
-  display: inline-block;
   padding: 15px;
   margin-bottom: 20px;
 }
 header .title .sub-container .tiny{
   font-size: .7777rem;
-  font-weight: 500;
 }
 header .end{
   height: 100px;
@@ -131,3 +130,95 @@ header .end{
   background-color: #afebe4;
 }
 /*main*/
+/*better together*/
+/*titolo*/
+main .better-together{
+  background-color:#f4f9fd;
+  padding-top: 50px;
+}
+main .better-together .title{
+  padding: 0 20%;
+  text-align: center;
+}
+main .better-together .title img{
+  height: 300px;
+}
+main .better-together .title h2{
+  font-size: 1.777rem;
+}
+main .better-together .title p{
+  margin: 40px 0;
+}
+/*blocchi contenuto*/
+main .better-together .box{
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+main .better-together .upper-box{
+  padding: 5%;
+}
+main .better-together .box img{
+  display: block;
+  height: 100px;
+  margin-bottom: 20px;
+}
+main .better-together .col{
+  float: left;
+}
+/*bottone per questa sezione*/
+main .box .cta{
+  padding:15px;
+}
+/*blocco in orizzontale*/
+main .better-together .upper-box .col-left{
+  width: 20%;
+}
+main .better-together .upper-box .col-right{
+  width: 70%;
+}
+main .better-together .col h4{
+  font-size: 1.222rem;
+}
+main .better-together .col p{
+  padding: 30px 0;
+}
+/*h5 per tutti i blocchi*/
+main .better-together .col h5{
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: inline-block;
+}
+main .better-together .upper-box .sub-col{
+  float: left;
+}
+main .better-together .upper-box .sub-col-left{
+  width: 30%;
+}
+main .better-together .upper-box .sub-col-right{
+  width: 70%;
+  padding: 10px 0;
+}
+main .better-together .end i{
+  color: #fe775a;
+  padding-right: 8px;
+  padding-left: 15px;
+}
+main .better-together .upper-box span:first-child i{
+  padding-left: 0;
+}
+main .better-together .upper-box .end{
+  padding-top: 25px;
+}
+/*blocchi a 3 colonne*/
+main .better-together .bottom-boxes .box{
+  width: 30%;
+  margin: 40px 0;
+  text-align: center;
+}
+main .better-together .bottom-boxes .middle-box{
+  margin: 40px 5%;
+}
+main .better-together .bottom-boxes .box img{
+  display: inline-block;
+}
