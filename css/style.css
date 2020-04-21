@@ -143,7 +143,7 @@ main .better-together .title{
 main .better-together .title img{
   height: 300px;
 }
-main .better-together .title h2{
+main h2{
   font-size: 1.777rem;
 }
 main .better-together .title p{
@@ -239,4 +239,46 @@ main .better-together .bottom-boxes .box .end{
 main .better-together .bottom-boxes .box i{
   color: #fe775a;
   padding-right: 8px;
+}
+/*inizio sezione learn and grow*/
+main .learn-and-grow{
+  color: white;
+  background-color: #00abb7;
+  padding-top: 50px;
+}
+/*intestazione*/
+main .learn-and-grow h2{
+  text-align: center;
+  margin-bottom: 45px;
+}
+main .learn-and-grow p{
+  text-align: center;
+}
+/*griglia*/
+main .learn-and-grow .first-row{
+  margin-top: 45px;
+}
+main .learn-and-grow .second-row{
+  padding-bottom: 80px;
+}
+main .learn-and-grow .element{
+  float: left;
+  width: 25%;
+  border-right: 1px solid white;
+  text-align: center;
+}
+main .learn-and-grow .element:last-child{
+  border-right: 0;
+}
+main .learn-and-grow .first-row .element{
+  border-bottom: 1px solid white;
+}
+main .learn-and-grow .element {
+  padding: 25px;
+}
+main .learn-and-grow .element h2 {
+  margin: 0;
+  padding: 20px 0;
+}
+main .learn-and-grow .element p {
 }
