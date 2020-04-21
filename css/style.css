@@ -180,7 +180,7 @@ main .better-together .upper-box .col-right{
 main .better-together .col h4{
   font-size: 1.222rem;
 }
-main .better-together .col p{
+main .better-together .upper-box .col p{
   padding: 30px 0;
 }
 /*h5 per tutti i blocchi*/
@@ -199,7 +199,7 @@ main .better-together .upper-box .sub-col-right{
   width: 70%;
   padding: 10px 0;
 }
-main .better-together .end i{
+main .better-together .upper-box .end i{
   color: #fe775a;
   padding-right: 8px;
   padding-left: 15px;
@@ -215,10 +215,28 @@ main .better-together .bottom-boxes .box{
   width: 30%;
   margin: 40px 0;
   text-align: center;
+  padding: 20px 35px;
 }
 main .better-together .bottom-boxes .middle-box{
   margin: 40px 5%;
 }
 main .better-together .bottom-boxes .box img{
   display: inline-block;
+}
+main .better-together .bottom-boxes .box h4{
+  margin-bottom: 30px;
+}
+main .better-together .bottom-boxes .box hr{
+  margin-top: 50px;
+}
+main .better-together .bottom-boxes .box h5{
+  margin: 30px 0;
+}
+main .better-together .bottom-boxes .box .end{
+  text-align: left;
+  margin-bottom: 30px;
+}
+main .better-together .bottom-boxes .box i{
+  color: #fe775a;
+  padding-right: 8px;
 }
