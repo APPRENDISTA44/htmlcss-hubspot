@@ -43,8 +43,8 @@ header .col-right{
 }
 /*top menu*/
 header .col-left .language{
-padding-right: 20px;
-border-right: 1px solid grey;
+  padding-right: 20px;
+  border-right: 1px solid grey;
 }
 header .col-left .contact{
   padding-left: 20px;
@@ -177,7 +177,7 @@ main #better-together .upper-box .col-left{
 main #better-together .upper-box .col-right{
   width: 70%;
 }
-main #better-together .col h4{
+h4{
   font-size: 1.222rem;
 }
 main #better-together .upper-box .col p{
@@ -283,6 +283,7 @@ main #learn-and-grow .element {
 main #learn-and-grow .element h2 {
   margin: 0;
   padding: 20px 0;
+  font-size: 2.800rem
 }
 main #learn-and-grow .element p {
 }
@@ -301,6 +302,7 @@ main #customers .container .partners .col-left{
 }
 main #customers .container .partners .col-left h2{
   padding-bottom: 50px;
+    font-size: 3.500rem
 }
 main #customers .container .partners .col-left p{
   line-height: 25px;
@@ -348,6 +350,7 @@ main #customers .container .growing .col-left{
 }
 main #customers .container .growing .col-left h2{
   margin-top: 30px;
+
 }
 main #customers .container .growing .col-left a{
   padding: 15px;
@@ -363,5 +366,72 @@ main #customers .container .growing .col-right img{
   height: 330px;
 }
 main #customers .container .growing {
-  padding-bottom:
+  padding-bottom: 35px;
+}
+/*footer*/
+footer{
+  background-color: #32495b;
+  color: #dadee0;
+}
+/*liste di link*/
+footer .container .top-footer{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+footer .top-footer .col{
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+}
+footer .container .top-footer .col h4{
+  color: white;
+  margin-bottom: 50px;
+}
+footer a{
+  color: #dadee0;
+}
+/*parte alta footer*/
+footer .container .top-footer .col li{
+  margin-bottom: 25px;
+}
+footer .container .top-footer .col li .cta{
+  color: #32495b;
+  background-color: #dadee0;
+  border: 1px solid #dadee0;
+  padding: 15px;
+}
+footer .container .top-footer .col .sub-list li{
+  display: inline-block;
+  margin-right: 20px;
+}
+/*parte bassa footer*/
+footer .container .bottom-footer li{
+  display: inline-block;
+  margin-right: 30px;
+}
+footer .container .bottom-footer ul{
+  text-align: center;
+}
+footer .container .bottom-footer hr{
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+footer .container .bottom-footer .col{
+  float: left;
+  width: 50%;
+}
+footer .container .bottom-footer .col p{
+  font-weight: bold;
+}
+footer .container .bottom-footer .col-right{
+  text-align: right;
+}
+footer .container .bottom-footer .col-right a{
+  margin-right: 15px;
+}
+footer .container .bottom-footer .col-right a:last-child{
+  margin-right: 0;
+}
+footer .container .bottom-footer .end{
+  padding-bottom: 50px;
 }
