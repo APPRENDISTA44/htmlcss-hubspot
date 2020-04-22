@@ -99,28 +99,28 @@ header .bottom-menu .col-right{
   line-height: 34px;
 }
 /*titolo*/
-header .title{
+header #title{
   height: 600px;
   background-color: #fff4ef;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-position: 105% -12px;
 }
-header .title .sub-container{
+header #title .sub-container{
   width: 45%;
   padding-top: 50px;
 }
-header .title .sub-container h1{
+header #title .sub-container h1{
   font-size: 2.555rem;
 }
-header .title .sub-container p{
+header #title .sub-container p{
   margin: 20px 0;
 }
-header .title .sub-container .cta{
+header #title .sub-container .cta{
   padding: 15px;
   margin-bottom: 20px;
 }
-header .title .sub-container .tiny{
+ p.tiny{
   font-size: .7777rem;
 }
 header .end{
@@ -132,38 +132,38 @@ header .end{
 /*main*/
 /*better together*/
 /*titolo*/
-main .better-together{
+main #better-together{
   background-color:#f4f9fd;
   padding-top: 50px;
 }
-main .better-together .title{
+main #better-together .title{
   padding: 0 20%;
   text-align: center;
 }
-main .better-together .title img{
+main #better-together .title img{
   height: 300px;
 }
 main h2{
   font-size: 1.777rem;
 }
-main .better-together .title p{
+main #better-together .title p{
   margin: 40px 0;
 }
 /*blocchi contenuto*/
-main .better-together .box{
+main #better-together .box{
   background-color: white;
   border: 1px solid;
   border-radius: 5px;
 }
-main .better-together .upper-box{
+main #better-together .upper-box{
   padding: 5%;
 }
-main .better-together .box img{
+main #better-together .box img{
   display: block;
   height: 100px;
   margin-bottom: 20px;
 }
-main .better-together .col{
+main #better-together .col{
   float: left;
 }
 /*bottone per questa sezione*/
@@ -171,114 +171,197 @@ main .box .cta{
   padding:15px;
 }
 /*blocco in orizzontale*/
-main .better-together .upper-box .col-left{
+main #better-together .upper-box .col-left{
   width: 20%;
 }
-main .better-together .upper-box .col-right{
+main #better-together .upper-box .col-right{
   width: 70%;
 }
-main .better-together .col h4{
+main #better-together .col h4{
   font-size: 1.222rem;
 }
-main .better-together .upper-box .col p{
+main #better-together .upper-box .col p{
   padding: 30px 0;
 }
 /*h5 per tutti i blocchi*/
-main .better-together .col h5{
+main #better-together .col h5{
   font-size: 1rem;
   text-transform: uppercase;
   display: inline-block;
 }
-main .better-together .upper-box .sub-col{
+main #better-together .upper-box .sub-col{
   float: left;
 }
-main .better-together .upper-box .sub-col-left{
+main #better-together .upper-box .sub-col-left{
   width: 30%;
 }
-main .better-together .upper-box .sub-col-right{
+main #better-together .upper-box .sub-col-right{
   width: 70%;
   padding: 10px 0;
 }
-main .better-together .upper-box .end i{
+main #better-together .upper-box .end i{
   color: #fe775a;
   padding-right: 8px;
   padding-left: 15px;
 }
-main .better-together .upper-box span:first-child i{
+main #better-together .upper-box span:first-child i{
   padding-left: 0;
 }
-main .better-together .upper-box .end{
+main #better-together .upper-box .end{
   padding-top: 25px;
 }
 /*blocchi a 3 colonne*/
-main .better-together .bottom-boxes .box{
+main #better-together .bottom-boxes .box{
   width: 30%;
   margin: 40px 0;
   text-align: center;
   padding: 20px 35px;
 }
-main .better-together .bottom-boxes .middle-box{
+main #better-together .bottom-boxes .middle-box{
   margin: 40px 5%;
 }
-main .better-together .bottom-boxes .box img{
+main #better-together .bottom-boxes .box img{
   display: inline-block;
 }
-main .better-together .bottom-boxes .box h4{
+main #better-together .bottom-boxes .box h4{
   margin-bottom: 30px;
 }
-main .better-together .bottom-boxes .box hr{
+main #better-together .bottom-boxes .box hr{
   margin-top: 50px;
 }
-main .better-together .bottom-boxes .box h5{
+main #better-together .bottom-boxes .box h5{
   margin: 30px 0;
 }
-main .better-together .bottom-boxes .box .end{
+main #better-together .bottom-boxes .box .end{
   text-align: left;
   margin-bottom: 30px;
 }
-main .better-together .bottom-boxes .box i{
+main #better-together .bottom-boxes .box i{
   color: #fe775a;
   padding-right: 8px;
 }
 /*inizio sezione learn and grow*/
-main .learn-and-grow{
+main #learn-and-grow{
   color: white;
   background-color: #00abb7;
   padding-top: 50px;
 }
 /*intestazione*/
-main .learn-and-grow h2{
+main #learn-and-grow h2{
   text-align: center;
   margin-bottom: 45px;
 }
-main .learn-and-grow p{
+main #learn-and-grow p{
   text-align: center;
 }
 /*griglia*/
-main .learn-and-grow .first-row{
+main #learn-and-grow .first-row{
   margin-top: 45px;
 }
-main .learn-and-grow .second-row{
+main #learn-and-grow .second-row{
   padding-bottom: 80px;
 }
-main .learn-and-grow .element{
+main #learn-and-grow .element{
   float: left;
   width: 25%;
   border-right: 1px solid white;
   text-align: center;
 }
-main .learn-and-grow .element:last-child{
+/*restringendo la pagina salvo la griglia*/
+main #learn-and-grow .element p{
+  height: 30px;
+}
+main #learn-and-grow .element:last-child{
   border-right: 0;
 }
-main .learn-and-grow .first-row .element{
+main #learn-and-grow .first-row .element{
   border-bottom: 1px solid white;
 }
-main .learn-and-grow .element {
+main #learn-and-grow .element {
   padding: 25px;
 }
-main .learn-and-grow .element h2 {
+main #learn-and-grow .element h2 {
   margin: 0;
   padding: 20px 0;
 }
-main .learn-and-grow .element p {
+main #learn-and-grow .element p {
+}
+/*inizio sezione customers*/
+/*Partners*/
+main #customers .container .partners{
+  padding:50px 5% 80px;
+
+}
+main #customers .container .col{
+  float: left;
+}
+main #customers .container .partners .col-left{
+  width: 20%;
+  text-align: center;
+}
+main #customers .container .partners .col-left h2{
+  padding-bottom: 50px;
+}
+main #customers .container .partners .col-left p{
+  line-height: 25px;
+}
+main #customers .container .partners .col-right{
+  margin-left: 15%;
+  width: 65%;
+}
+main #customers .container .partners .col-right li{
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  width: 162px;
+  text-align: center;
+  height: 40px;
+}
+main #customers .container .partners .col-right img{
+  display: inline-block;
+  height: 20px;
+}
+main #customers .container .partners .col-right li:nth-child(5) img ,
+main #customers .container .partners .col-right li:nth-child(7) img
+{
+  height: 40px;
+}
+main #customers .container .partners .col-right li:nth-child(8) img,
+main #customers .container .partners .col-right li:nth-child(3) img ,
+main #customers .container .partners .col-right li:nth-child(4) img
+{
+  height: 35px;
+}
+main #customers .container .partners .col-right li:nth-child(6) img {
+  height: 25px;
+  position: relative;
+  bottom:8px;
+}
+main #customers .container .partners .col-right li:nth-child(3) img,
+main #customers .container .partners .col-right li:nth-child(4) img{
+  position: relative;
+  top:8px;
+}
+/*growing*/
+main #customers .container .growing .col-left{
+  width: 35%;
+}
+main #customers .container .growing .col-left h2{
+  margin-top: 30px;
+}
+main #customers .container .growing .col-left a{
+  padding: 15px;
+}
+main #customers .container .growing .col-left p{
+  margin: 40px 0;
+}
+main #customers .container .growing .col-right {
+  width: 65%;
+  text-align: right;
+}
+main #customers .container .growing .col-right img{
+  height: 330px;
+}
+main #customers .container .growing {
+  padding-bottom:
 }
